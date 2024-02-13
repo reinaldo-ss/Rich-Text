@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #338cf4;
 
 }
 
-.container{
+.container {
     background-color: #fff;
     width: 150vmin;
     padding: 50px 30px;
@@ -22,11 +22,12 @@ body{
     
 }
 
-.options{
+.options {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 15px;
+    margin-top: -15px;
 }
 
 button {
@@ -39,4 +40,42 @@ button {
     background-color: #fff;
     outline: none;
     color: #020929;  
+}
+
+.options label, .options select {
+    font-family: "Poppins", sans-serif;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+input[type="color"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 40px;
+    height: 28px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px #020929;
+}
+
+input[type="color"]::-moz-color-swatch {
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px #020929;
+}
+
+#text-input {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    height: 60vh;
 }
