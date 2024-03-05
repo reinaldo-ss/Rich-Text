@@ -39,7 +39,59 @@ highlighter(alignButtons, true);
 highlighter(spacingButtons, true);
 highlighter(formatButtons, false);
 highlighter(scriptButtons,true);
+
+//Adicionando opções ao menu suspenso(onde ficara as fontes)
+//Criando a exibição do FontNames
+fontList.map((value) => {
+
+    let option = document.createElement("option");
+    option.value = value;
+    option.innerHTML = value;
+    fontName.appendChild(option);
+    });
+
+//A FontSize permite apenas até 7
+for (let i = 1; i <=7; i++) {
+    let option = document.createElement("option");
+    option.value = i;
+    option.innerHTML = i;
+    fontSizeRef.appendChild(option);
+}
+
+fontSizeRef.value = 3;
 };
+
+//Criar modificador de texto. Lógica principal:
+const modifyText = (command, defaultUi,value) => {
+    //execCommand executa o comando no texto selecionado
+    document.execCommand(command, defaultUi, value);
+}
+
+//Para operações básicas que não precisam de parâmetro de valor
+optionsButtons.forEach((button) => {
+    button.addEventListener("click", () =>{
+        modifyText(button.id, false, null);
+    });
+});
+
+//Opções que requerem parâmetro de valor (e.g colors, fonts)
+advancedOptionButton.forEach((button) => {
+    button.addEventListener("change", () =>{
+        modifyText(button.id, false, button.value);
+    });
+});
+
+//Para link
+linkButton.addEventListener("click", () => {
+    let userLink = prompt("Digite a URL");
+    //if link tiver http então passe direto, se não adicione https
+    if(/http/i.test(userLink)) {
+        modifyText(linkButton.id, false, userLink);
+    } else {
+        userLink = "http://" + userLink;
+        modifyText(linkButton.id, false, userLink);
+    }
+})
 
 // Destacando botão clicado
 const highlighter = (className, needsRemoval) => {
@@ -75,6 +127,6 @@ const highlighterRemover = (className) => {
     className.forEach((button) => {
         button.classList.remove("active")
     });
-}
+};
 
 window.onload = initializer();
