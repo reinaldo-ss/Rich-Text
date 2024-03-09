@@ -3,8 +3,8 @@
 .container {
 background-color: #fff;
 width: 90vmin;
-height: 165vmin;
-padding: 40px 20px;
+height: 155vmin;
+padding: 30px 20px;
 position: absolute;
 transform: translate(-50%, -50%);
 left: 50%;
