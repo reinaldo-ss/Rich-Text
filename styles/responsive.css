@@ -3,7 +3,7 @@
 .container {
 background-color: #fff;
 width: 90vmin;
-height: 130vmin;
+height: 145vmin;
 padding: 60px 20px;
 position: absolute;
 transform: translate(-50%, -50%);
@@ -15,10 +15,10 @@ box-shadow: 0 25px 50px rgba(7, 20, 35, 0.2);
 }
 
 #text-input {
-    margin-top: 10px;
-    border: 1px solid #ddd;
-    padding: 20px;
-    height: 46vh;
+margin-top: 10px;
+border: 1px solid #ddd;
+padding: 20px;
+height: 46vh;
 }
 
 }
