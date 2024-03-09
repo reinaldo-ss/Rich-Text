@@ -1,0 +1,16 @@
+@media screen and (max-width: 1565px) {
+
+.container {
+background-color: #fff;
+width: 70vmin;
+padding: 60px 20px;
+position: absolute;
+transform: translate(-50%, -50%);
+left: 40%;
+top: 50%;
+border-radius: 10px;
+box-shadow: 0 25px 50px rgba(7, 20, 35, 0.2);
+}
+
+
+}
