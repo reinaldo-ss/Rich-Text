@@ -84,3 +84,21 @@ input[type="color"]::-moz-color-swatch {
 .active {
     background-color: #e0e9ff;
 }
+
+#container1 {
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: #ddd;
+    width: 70px;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: #b4b4b4; /* Cor de fundo quando o mouse passa por cima */
+}
