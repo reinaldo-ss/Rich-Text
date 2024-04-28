@@ -11,11 +11,15 @@
     <link href="https://fonts.googleapis.com/css2?family
     =Poppins&display=swap" rel="stylesheet">
 
+    <!--Link de estilização-->
     <link rel="stylesheet" href="../styles/manual.css">
+    <link rel="stylesheet" href="../styles/responsive.css">
+
 </head>
 <body>
     <div class="principal">
         <div class="cabecalho">
+            <a type="button" href="../index.html" id="voltar">Voltar</a>
             <h2>Manual</h2>
         </div>
         
@@ -25,12 +29,15 @@
                 para você, entretanto caso não tenha conhecimento este manual irá te ajudar a conhecer melhor as funções
                 do site.
             </p>
+            <p>Lembrando que este modelo não é uma cópia perfeita do Word, e sim um bloco de notas com funcionalidades a mais.</p>
         </div>
+        <!--Formato de Texto-->
         <div class="instrucoes">
             <div class="conteudo">
                 <button id="bold" class="option-button format">
                     <i class="fa-solid fa-bold"></i>
                 </button>
+                <p>- Este botão é usado para deixar as palavras selecionadas dentro da caixa de texto em negrito. Ex: <b>Negrito</b> </p>
             </div>
         </div>
         <div class="instrucoes">
@@ -38,9 +45,143 @@
                 <button id="italic" class="option-button format">
                     <i class="fa-solid fa-italic"></i>
                 </button> 
-                <p>- Este botão faz... abababaabab bababababababab abababababababba aaaaaa dlfaijfak fndashfajb</p>   
+                <p>- Este botão é usado para deixar as palavras selecionadas dentro da caixa de texto em itálico. Ex: <i>Itálico</i></p>   
             </div>
         </div>
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="underline" class="option-button format">
+                    <i class="fa-solid fa-underline"></i>
+                </button> 
+                <p>- Este botão é usado para deixar as palavras selecionadas dentro da caixa de texto sublinhadas. Ex: <u>Sublinhado</u></p>   
+            </div>
+        </div>
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="strikethrough" class="option-button format">
+                    <i class="fa-solid fa-strikethrough"></i>
+                </button> 
+                <p>- Este botão é usado para deixar as palavras selecionadas com um risco no centro. Ex: <s>Riscadas</s></p>   
+            </div>
+        </div>
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="superscript" class="option-button format">
+                    <i class="fa-solid fa-superscript"></i>
+                </button> 
+                <p>- A expressão "número elevado" pode ser usada com este botão para elevar um número ou letra. Ex: 48¹ </p>   
+            </div>
+        </div>
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="subscript" class="option-button format">
+                    <i class="fa-solid fa-subscript"></i>
+                </button> 
+                <p>- Quando precisar digitar uma letra ou número abaixo da linha de texto em tamanho reduzido, use este botão</p>   
+            </div>
+        </div>
+        <!-- Lista -->
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="createLink" class="adv-option-button">
+                    <i class="fa fa-link"></i>
+                </button> 
+                <p>- Quando precisar criar um link em um trecho, pode usar esse botão para digitar o link e linkar ele a palavra.</p>   
+            </div>
+        </div>
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="unlink" class="option-button">
+                    <i class="fa fa-unlink"></i>
+                </button> 
+                <p>- Este botão faz o contrário do anterior, ao invés de linkar, ele quebra a ligação do link com o texto acoplado.</p>   
+            </div>
+        </div>
+        <!-- Alinhamento -->
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="justifyLeft" class="option-button align">
+                    <i class="fa-solid fa-align-left"></i>
+                </button> 
+                <p>- Quando precisar organizar o texto, com este botão poderá colocar o texto da direita para esquerda.</p>   
+            </div>
+        </div>
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="justifyCenter" class="option-button align">
+                    <i class="fa-solid fa-align-center"></i>
+                </button> 
+                <p>- Este botão coloca o texto no centro da linha, alinhando eles com um espaço pra direita e esquerda.</p>   
+            </div>
+        </div>
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="justifyRight" class="option-button align">
+                    <i class="fa-solid fa-align-right"></i>
+                </button> 
+                <p>- Esse faz a função contrária do primeiro botão de organizar o texto, ele segue da esquerda para direita com o texto.</p>   
+            </div>
+        </div>
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="justifyFull" class="option-button align">
+                    <i class="fa-solid fa-align-justify"></i>
+                </button> 
+                <p>- Com este botão você pode organizar o texto de forma justificada, deixando espaçamentos iguais entre as palavras.</p>   
+            </div>
+        </div>
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="indent" class="option-button spacing">
+                    <i class="fa-solid fa-indent"></i>
+                </button> 
+                <p>- Quando uma redação deixamos um espaço a cada início de parágrafo, este botão cria esse espaço.</p>   
+            </div>
+        </div>
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="outdent" class="option-button spacing">
+                    <i class="fa-solid fa-outdent"></i>
+                </button> 
+                <p>- O botão anterior cria o espaço do inicio do texto, este pode ser usado pra fazer o contrário, no caso retrair a frase.</p>   
+            </div>
+        </div>
+        <!-- Títulos -->
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="outdent" class="option-button spacing">
+                    <i><b>H1</b></i>
+                </button> 
+                <p>- Os H são usados como tamanhos pré configurados para aumentar ou diminuir titulos, subtitulos e texto.</p>   
+            </div>
+        </div>
+        <!-- Desfazer/Refazer -->
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="undo" class="option-button">
+                    <i class="fa-solid fa-rotate-left"></i>
+                </button> 
+                <p>- Caso tenha digitado errado alguma informação no texto, você pode usar este botão para reverter o erro.</p>   
+            </div>
+        </div>
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="redo" class="option-button">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button> 
+                <p>- Caso use o botão anterior sem querer e necessite voltar para oque estava antes, pode usar esse botão para reverter.</p>   
+            </div>
+        </div>
+        <!-- Fonts -->
+        <div class="instrucoes">
+            <div class="conteudo">
+                <button id="outdent" class="option-button spacing">
+                    <i><b>3</b></i>
+                </button> 
+                <p>- Nesta caixa começa do número 1 ao 7, é usado para aumentar ou diminuir o tamanho das letras e números. </p>   
+            </div>
+        </div>
+    
     </div>
 </body>
 </html>
