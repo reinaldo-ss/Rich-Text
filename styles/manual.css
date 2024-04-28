@@ -1,25 +1,32 @@
 body {
     font-family: "Poppins", sans-serif;
+    background-color: #338cf4;
 }
 
 .principal {
-    height: 96vh;
+    background-color: #fff;
+    height: 266vh;
     width: 50%;
     margin: 0 auto 0 auto;
-    border: solid black;
+    border-radius: 20px;
 }
 
 .cabecalho {
     height: 70px;
-    border-bottom: solid black;
-
     display: flex;
     justify-content: center;
 }
 
+#voltar {
+    position: absolute;
+    display: flex;
+    padding: 28px 570px 0 0;
+    text-decoration: none;
+}
+
 .subtitulo {
-    height: 70px;
-    margin: 2% 0 -4% 0;
+    height: 110px;
+    margin: 0 0 -4% 0;
 }
 
 .subtitulo p {
