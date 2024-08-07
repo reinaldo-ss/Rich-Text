@@ -20,7 +20,7 @@ body {
 #voltar {
     position: absolute;
     display: flex;
-    padding: 28px 570px 0 0;
+    margin: 28px 570px 0 0;
     text-decoration: none;
 }
 
