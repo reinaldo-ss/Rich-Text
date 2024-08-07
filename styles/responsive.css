@@ -30,16 +30,17 @@ box-shadow: 0 25px 50px rgba(7, 20, 35, 0.2);
     border-radius: 20px;
 }
 
+.subtitulo {
+    height: 110px;
+    margin: 0 0 13% 0;
+}
+
 .instrucoes {
     height: 50px;
-    margin-top: 30px;
+    margin-top: 60px;
     display: flex;
 }
 
-.subtitulo {
-    height: 110px;
-    margin: 0 0 4% 0;
-}
 
 #voltar {
     position: absolute;
@@ -48,6 +49,3 @@ box-shadow: 0 25px 50px rgba(7, 20, 35, 0.2);
     text-decoration: none;
 }
 }
-
-
-
