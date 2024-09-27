@@ -24,7 +24,7 @@ box-shadow: 0 25px 50px rgba(7, 20, 35, 0.2);
 /* Manual */
 .principal {
     background-color: #fff;
-    height: 280vh;
+    height: 265vh;
     width: 95%;
     margin: 0 auto 0 auto;
     border-radius: 20px;
@@ -36,12 +36,16 @@ box-shadow: 0 25px 50px rgba(7, 20, 35, 0.2);
 }
 
 .instrucoes {
-    height: 50px;
-    margin-top: 60px;
+    height: 75px;
+    margin: 30px 10px 0 10px;
     display: flex;
+
 }
 
-
+.conteudo {
+    margin: 0 auto 0 auto; /* Topo, Direita, Fundo, Esquerda */
+    padding: 0 10px 0 10px;
+}
 #voltar {
     position: absolute;
     display: flex;
@@ -49,6 +53,3 @@ box-shadow: 0 25px 50px rgba(7, 20, 35, 0.2);
     text-decoration: none;
 }
 }
-
-
-
