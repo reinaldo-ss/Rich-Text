@@ -20,7 +20,7 @@ body {
 #voltar {
     position: absolute;
     display: flex;
-    margin: 28px 570px 0 0;
+    margin: 27px 560px 0 0;
     text-decoration: none;
 }
 
@@ -32,7 +32,6 @@ body {
 .subtitulo p {
     width: 90%;
     margin: 0 auto 0 auto;
-
     text-indent: 50px;
     text-align: justify;
 }
@@ -48,7 +47,6 @@ body {
     display: flex;
     border-right: solid;
     border-left: solid;
-
     padding-left: 10px;
     margin: 0 auto 0 auto; /* Topo, Direita, Fundo, Esquerda */
 }
