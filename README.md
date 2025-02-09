@@ -1,2 +1,2 @@
 # Rich-Text
-Projeto de um Bloco de Notas com usabilidade de um Word.
+Projeto de um Bloco de Notas com usabilidade de um Word, sendo possivel fazer download do seu arquivo em PDF, estilizar seu texto, com cores, tamanhos e fontes que foram implementadas no site, foi feito adaptação para que funcione também no dispositivo android, funcionando a pagina inicial e a secundária. Projeto feito com intuito de adquirir conhecimento na parte de CSS conhecendo noções de criar um site responsivo e distribuído.
